@@ -15,4 +15,4 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.8.0")
     implementation 'org.bitcoinj:bitcoinj-core:0.15.7'
     implementation 'org.web3j:core:4.6.1'
-    testCompile grou
+    testCompile group: 'junit', name: 'junit', vers
