@@ -13,4 +13,5 @@ dependencies {
     implementation("com.google.guava:guava:29.0-jre")
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation("com.squareup.okhttp3:okhttp:4.8.0")
-    implementation 'org.bitcoinj:bitcoinj-core:0.1
+    implementation 'org.bitcoinj:bitcoinj-core:0.15.7'
+    implementation 'org.web3j:c
