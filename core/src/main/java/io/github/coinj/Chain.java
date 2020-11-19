@@ -2,4 +2,7 @@ package io.github.coinj;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.concurrent.ExecutionExce
+import java.util.concurrent.ExecutionException;
+
+public interface Chain {
+   
