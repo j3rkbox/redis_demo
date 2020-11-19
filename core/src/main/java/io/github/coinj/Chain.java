@@ -5,4 +5,5 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public interface Chain {
-   
+    KeyPair generateKeyPair();
+    KeyPai
