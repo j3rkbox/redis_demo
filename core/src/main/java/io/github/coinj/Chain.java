@@ -6,4 +6,4 @@ import java.util.concurrent.ExecutionException;
 
 public interface Chain {
     KeyPair generateKeyPair();
-    KeyPai
+    KeyPair generateKeyPair(String s
