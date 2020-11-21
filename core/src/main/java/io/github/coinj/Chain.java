@@ -6,4 +6,6 @@ import java.util.concurrent.ExecutionException;
 
 public interface Chain {
     KeyPair generateKeyPair();
-    KeyPair generateKeyPair(String s
+    KeyPair generateKeyPair(String secret);
+
+    PackedRawTransaction pack
