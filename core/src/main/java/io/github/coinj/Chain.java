@@ -8,4 +8,4 @@ public interface Chain {
     KeyPair generateKeyPair();
     KeyPair generateKeyPair(String secret);
 
-    PackedRawTransaction pack
+    PackedRawTransaction packTransaction(RawTransaction
