@@ -8,4 +8,5 @@ public interface Chain {
     KeyPair generateKeyPair();
     KeyPair generateKeyPair(String secret);
 
-    PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException, ExecutionException, Inter
+    PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException, ExecutionException, InterruptedException;
+    Signed
