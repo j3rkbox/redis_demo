@@ -11,4 +11,5 @@ public interface Chain {
     PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException, ExecutionException, InterruptedException;
     SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> keys);
 
-    String sendTransaction(SignedRawTransaction transaction) throws IOExcepti
+    String sendTransaction(SignedRawTransaction transaction) throws IOException;
+}
