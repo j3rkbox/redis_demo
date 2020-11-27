@@ -9,4 +9,6 @@ public interface Chain {
     KeyPair generateKeyPair(String secret);
 
     PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException, ExecutionException, InterruptedException;
-    SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> ke
+    SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> keys);
+
+    String sendTransaction(
