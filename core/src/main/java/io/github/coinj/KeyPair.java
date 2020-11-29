@@ -5,4 +5,5 @@ public class KeyPair {
     private final String publicKey;
 
     public KeyPair(String secretKey, String publicKey) {
-     
+        this.secretKey = secretKey;
+ 
