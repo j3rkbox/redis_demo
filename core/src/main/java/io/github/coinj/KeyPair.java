@@ -4,4 +4,4 @@ public class KeyPair {
     private final String secretKey;
     private final String publicKey;
 
-    public K
+    public KeyPair(String secretKey, Strin
