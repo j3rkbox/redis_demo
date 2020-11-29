@@ -1,1 +1,3 @@
-package io.github.c
+package io.github.coinj;
+
+public class KeyPair {
