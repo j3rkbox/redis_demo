@@ -7,3 +7,6 @@ public class KeyPair {
     public KeyPair(String secretKey, String publicKey) {
         this.secretKey = secretKey;
         this.publicKey = publicKey;
+    }
+
+    public String getSe
