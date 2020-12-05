@@ -9,4 +9,5 @@ public class KeyPair {
         this.publicKey = publicKey;
     }
 
-    public String getSe
+    public String getSecret() {
+        return this.secret
