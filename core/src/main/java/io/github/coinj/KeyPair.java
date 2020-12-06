@@ -10,4 +10,7 @@ public class KeyPair {
     }
 
     public String getSecret() {
-        return this.secret
+        return this.secretKey;
+    }
+
+    public String
