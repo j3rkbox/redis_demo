@@ -13,4 +13,5 @@ public class KeyPair {
         return this.secretKey;
     }
 
-    public String
+    public String getPublic() {
+        return this.pub
