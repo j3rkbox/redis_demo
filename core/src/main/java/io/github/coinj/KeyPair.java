@@ -14,4 +14,8 @@ public class KeyPair {
     }
 
     public String getPublic() {
-        return this.pub
+        return this.publicKey;
+    }
+
+    @Override
+   
