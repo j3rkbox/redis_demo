@@ -19,4 +19,4 @@ public class KeyPair {
 
     @Override
     public String toString() {
-     
+        return this.getPublic() + "\n"
