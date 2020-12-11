@@ -1,0 +1,4 @@
+
+package io.github.coinj;
+
+public enum Network {
