@@ -6,4 +6,5 @@ import java.util.Map;
 public class PackedRawTransaction extends RawTransaction {
     private Map<String, Object> extra = new HashMap<>();
 
-    public PackedRawTransaction(RawTransaction r
+    public PackedRawTransaction(RawTransaction rawTransaction) {
+      
