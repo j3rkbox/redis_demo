@@ -7,4 +7,4 @@ public class PackedRawTransaction extends RawTransaction {
     private Map<String, Object> extra = new HashMap<>();
 
     public PackedRawTransaction(RawTransaction rawTransaction) {
-        super(rawTransaction.getInputs(),
+        super(rawTransaction.getInputs(), rawTransaction.getOutputs(), raw
