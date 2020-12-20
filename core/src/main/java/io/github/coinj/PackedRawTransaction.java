@@ -8,3 +8,6 @@ public class PackedRawTransaction extends RawTransaction {
 
     public PackedRawTransaction(RawTransaction rawTransaction) {
         super(rawTransaction.getInputs(), rawTransaction.getOutputs(), rawTransaction.getFee(), rawTransaction.getChange());
+    }
+
+    public Object getExt
