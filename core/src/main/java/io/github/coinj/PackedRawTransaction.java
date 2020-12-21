@@ -11,4 +11,7 @@ public class PackedRawTransaction extends RawTransaction {
     }
 
     public Object getExtra(String key) {
-        return
+        return extra.get(key);
+    }
+
+   
