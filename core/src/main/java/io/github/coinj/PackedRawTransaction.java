@@ -10,4 +10,5 @@ public class PackedRawTransaction extends RawTransaction {
         super(rawTransaction.getInputs(), rawTransaction.getOutputs(), rawTransaction.getFee(), rawTransaction.getChange());
     }
 
-    public Object getExt
+    public Object getExtra(String key) {
+        return
