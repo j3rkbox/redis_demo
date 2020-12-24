@@ -10,3 +10,42 @@ public class RawTransaction {
     private List<Output> outputs;
 
     private BigDecimal fee;
+    private String change;
+
+    private Coin coin;
+
+    public RawTransaction(List<Input> inputs, List<Output> outputs, BigDecimal fee) {
+        this.inputs = inputs;
+        this.outputs = outputs;
+        this.fee = fee;
+    }
+
+    public RawTransaction(List<Input> inputs, List<Output> outputs, BigDecimal fee, String change) {
+        this.inputs = inputs;
+        this.outputs = outputs;
+        this.fee = fee;
+        this.change = change;
+    }
+
+    public List<Input> getInputs() {
+        return inputs;
+    }
+
+    public void setInputs(List<Input> inputs) {
+        this.inputs = inputs;
+    }
+
+    public List<Output> getOutputs() {
+        return outputs;
+    }
+
+    public void setOutputs(List<Output> outputs) {
+        this.outputs = outputs;
+    }
+
+    public String getChange() {
+        return change;
+    }
+
+    public void setChange(String change) {
+        this.change = change;
