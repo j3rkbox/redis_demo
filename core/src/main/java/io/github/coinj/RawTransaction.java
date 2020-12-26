@@ -76,3 +76,30 @@ public class RawTransaction {
 
         public String getAddress() {
             return address;
+        }
+
+        public void setAddress(String address) {
+            this.address = address;
+        }
+    }
+
+    public static class Output {
+        private String address;
+        private BigDecimal amount;
+
+        public Output(String address, BigDecimal amount) {
+            this.address = address;
+            this.amount = amount;
+        }
+
+        public String getAddress() {
+            return address;
+        }
+
+        public void setAddress(String address) {
+            this.address = address;
+        }
+
+        public BigDecimal getAmount() {
+            return amount;
+        }
