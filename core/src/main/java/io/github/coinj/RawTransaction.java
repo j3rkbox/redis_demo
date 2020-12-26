@@ -49,3 +49,30 @@ public class RawTransaction {
 
     public void setChange(String change) {
         this.change = change;
+    }
+
+    public BigDecimal getFee() {
+        return fee;
+    }
+
+    public void setFee(BigDecimal fee) {
+        this.fee = fee;
+    }
+
+    public Coin getCoin() {
+        return coin;
+    }
+
+    public void setCoin(Coin coin) {
+        this.coin = coin;
+    }
+
+    public static class Input {
+        private String address;
+
+        public Input(String address) {
+            this.address = address;
+        }
+
+        public String getAddress() {
+            return address;
