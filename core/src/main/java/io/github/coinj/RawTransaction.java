@@ -103,3 +103,39 @@ public class RawTransaction {
         public BigDecimal getAmount() {
             return amount;
         }
+
+        public void setAmount(BigDecimal amount) {
+            this.amount = amount;
+        }
+    }
+
+    public static class Builder {
+        private final List<Input> inputs = new ArrayList<>();
+        private final List<Output> outputs = new ArrayList<>();
+        private BigDecimal fee;
+        private String change;
+        private Coin coin;
+        public Builder(Coin coin) {
+        }
+
+        public Builder from(String address) {
+            inputs.add(new Input(address));
+            return this;
+        }
+
+        public Builder addInput(String address) {
+            inputs.add(new Input(address));
+            return this;
+        }
+
+        public Builder to(String address, BigDecimal amount) {
+            outputs.add(new Output(address, amount));
+            return this;
+        }
+
+        public Builder addOutput(String address, BigDecimal amount) {
+            outputs.add(new Output(address, amount));
+            return this;
+        }
+
+        public Builder fee(BigDecimal amount) {
