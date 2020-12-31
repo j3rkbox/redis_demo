@@ -139,3 +139,16 @@ public class RawTransaction {
         }
 
         public Builder fee(BigDecimal amount) {
+            return this;
+        }
+
+        public Builder change(String change) {
+            this.change = change;
+            return this;
+        }
+
+        public RawTransaction build() {
+            return new RawTransaction(inputs, outputs, fee, change);
+        }
+    }
+}
