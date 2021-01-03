@@ -1,1 +1,3 @@
-package io.github.co
+package io.github.coinj;
+
+import org.json.JSONObject
