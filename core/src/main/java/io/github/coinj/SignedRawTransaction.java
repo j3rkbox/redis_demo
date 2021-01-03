@@ -2,4 +2,4 @@ package io.github.coinj;
 
 import org.json.JSONObject;
 
-public class SignedRawTransact
+public class SignedRawTransaction extends PackedRawTransactio
