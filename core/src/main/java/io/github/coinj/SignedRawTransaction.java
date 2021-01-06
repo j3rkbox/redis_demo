@@ -5,4 +5,4 @@ import org.json.JSONObject;
 public class SignedRawTransaction extends PackedRawTransaction {
     private JSONObject rawTx;
 
-    public SignedRawTransaction
+    public SignedRawTransaction(RawTransaction rawTransactio
