@@ -5,4 +5,5 @@ import org.json.JSONObject;
 public class SignedRawTransaction extends PackedRawTransaction {
     private JSONObject rawTx;
 
-    public SignedRawTransaction(RawTransaction rawTransaction, JSONObject rawTx)
+    public SignedRawTransaction(RawTransaction rawTransaction, JSONObject rawTx) {
+        super(rawTransactio
