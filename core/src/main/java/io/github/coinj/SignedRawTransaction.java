@@ -7,4 +7,7 @@ public class SignedRawTransaction extends PackedRawTransaction {
 
     public SignedRawTransaction(RawTransaction rawTransaction, JSONObject rawTx) {
         super(rawTransaction);
-        this.rawTx = raw
+        this.rawTx = rawTx;
+    }
+
+    public Bo
