@@ -14,4 +14,5 @@ public class SignedRawTransaction extends PackedRawTransaction {
         return rawTx == null;
     }
 
-    public JSONOb
+    public JSONObject getRawTx() {
+        retu
