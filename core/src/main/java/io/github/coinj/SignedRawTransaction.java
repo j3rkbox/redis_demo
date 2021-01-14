@@ -10,4 +10,5 @@ public class SignedRawTransaction extends PackedRawTransaction {
         this.rawTx = rawTx;
     }
 
-    public Bo
+    public Boolean isSigned() {
+        retur
