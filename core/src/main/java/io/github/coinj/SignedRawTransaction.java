@@ -11,4 +11,7 @@ public class SignedRawTransaction extends PackedRawTransaction {
     }
 
     public Boolean isSigned() {
-        retur
+        return rawTx == null;
+    }
+
+    public JSONOb
