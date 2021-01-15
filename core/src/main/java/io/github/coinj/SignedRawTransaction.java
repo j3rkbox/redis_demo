@@ -18,4 +18,4 @@ public class SignedRawTransaction extends PackedRawTransaction {
         return rawTx;
     }
 
-    public 
+    public void setRawTx(JSON
