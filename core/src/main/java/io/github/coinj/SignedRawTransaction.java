@@ -19,4 +19,8 @@ public class SignedRawTransaction extends PackedRawTransaction {
     }
 
     public void setRawTx(JSONObject rawTx) {
-        this.raw
+        this.rawTx = rawTx;
+    }
+
+    @Override
+ 
