@@ -18,4 +18,5 @@ public class SignedRawTransaction extends PackedRawTransaction {
         return rawTx;
     }
 
-    public void setRawTx(JSON
+    public void setRawTx(JSONObject rawTx) {
+        this.raw
