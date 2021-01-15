@@ -15,4 +15,7 @@ public class SignedRawTransaction extends PackedRawTransaction {
     }
 
     public JSONObject getRawTx() {
-        retu
+        return rawTx;
+    }
+
+    public 
