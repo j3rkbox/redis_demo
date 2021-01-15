@@ -24,4 +24,6 @@ public class SignedRawTransaction extends PackedRawTransaction {
 
     @Override
     public String toString() {
-        return "SignedTrans
+        return "SignedTransaction: " + rawTx;
+    }
+}
