@@ -5,3 +5,5 @@ import com.google.common.collect.ImmutableList;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import io.github.coinj.*;
+import io.github.coinj.Coin;
+imp
