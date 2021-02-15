@@ -17,4 +17,5 @@ import org.bitcoinj.params.TestNet3Params;
 import org.bitcoinj.script.Script;
 import org.bitcoinj.script.ScriptBuilder;
 import org.bitcoinj.script.ScriptPattern;
-import org.bouncycastle.pqc.math.linea
+import org.bouncycastle.pqc.math.linearalgebra.ByteUtils;
+import org.jso
