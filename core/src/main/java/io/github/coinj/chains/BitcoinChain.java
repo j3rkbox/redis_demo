@@ -18,4 +18,6 @@ import org.bitcoinj.script.Script;
 import org.bitcoinj.script.ScriptBuilder;
 import org.bitcoinj.script.ScriptPattern;
 import org.bouncycastle.pqc.math.linearalgebra.ByteUtils;
-import org.jso
+import org.json.JSONObject;
+
+import java.io.IOException;
