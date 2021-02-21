@@ -28,4 +28,5 @@ import java.util.Objects;
 
 import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
 
-public class BitcoinChain extends AbstractCh
+public class BitcoinChain extends AbstractChain {
+    public final static 
