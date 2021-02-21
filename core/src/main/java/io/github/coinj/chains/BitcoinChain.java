@@ -28,4 +28,4 @@ import java.util.Objects;
 
 import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
 
-public class BitcoinCh
+public class BitcoinChain extends AbstractCh
