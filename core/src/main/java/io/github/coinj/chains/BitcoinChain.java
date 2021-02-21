@@ -26,4 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static org.bitcoinj.script.ScriptOpCodes.OP_CH
+import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
+
+public class BitcoinCh
