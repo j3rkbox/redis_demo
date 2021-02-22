@@ -29,4 +29,4 @@ import java.util.Objects;
 import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
 
 public class BitcoinChain extends AbstractChain {
-    public final static 
+    public final static String MAINNET_URL = "http
