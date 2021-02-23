@@ -29,4 +29,5 @@ import java.util.Objects;
 import static org.bitcoinj.script.ScriptOpCodes.OP_CHECKMULTISIG;
 
 public class BitcoinChain extends AbstractChain {
-    public final static String MAINNET_URL = "https://api.bitcore.io/api/BTC/mainnet
+    public final static String MAINNET_URL = "https://api.bitcore.io/api/BTC/mainnet";
+    public final static String TES
