@@ -32,4 +32,4 @@ public class BitcoinChain extends AbstractChain {
     public final static String MAINNET_URL = "https://api.bitcore.io/api/BTC/mainnet";
     public final static String TESTNET_URL = "https://api.bitcore.io/api/BTC/testnet";
 
-    private fina
+    private final static BigDecimal DUST_THRESH
