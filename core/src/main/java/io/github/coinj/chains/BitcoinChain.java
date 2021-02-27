@@ -32,4 +32,6 @@ public class BitcoinChain extends AbstractChain {
     public final static String MAINNET_URL = "https://api.bitcore.io/api/BTC/mainnet";
     public final static String TESTNET_URL = "https://api.bitcore.io/api/BTC/testnet";
 
-    private final static BigDecimal DUST_THRESHOLD = new BigDecimal(2730).m
+    private final static BigDecimal DUST_THRESHOLD = new BigDecimal(2730).movePointLeft(8);
+
+    private NetworkParam
