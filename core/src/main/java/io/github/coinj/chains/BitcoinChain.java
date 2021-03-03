@@ -34,4 +34,5 @@ public class BitcoinChain extends AbstractChain {
 
     private final static BigDecimal DUST_THRESHOLD = new BigDecimal(2730).movePointLeft(8);
 
-    private NetworkParameters netParams = MainNetParams.
+    private NetworkParameters netParams = MainNetParams.get();
+    private String 
