@@ -37,4 +37,6 @@ public class BitcoinChain extends AbstractChain {
     private NetworkParameters netParams = MainNetParams.get();
     private String url;
 
-    public static final List<Coin> COINS = ImmutableList.of(Coin.BTC, Coin.ETH)
+    public static final List<Coin> COINS = ImmutableList.of(Coin.BTC, Coin.ETH);
+
+    public BitcoinChain(
