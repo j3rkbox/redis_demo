@@ -39,4 +39,5 @@ public class BitcoinChain extends AbstractChain {
 
     public static final List<Coin> COINS = ImmutableList.of(Coin.BTC, Coin.ETH);
 
-    public BitcoinChain(
+    public BitcoinChain(Network network, String url) {
+ 
