@@ -42,4 +42,4 @@ public class BitcoinChain extends AbstractChain {
     public BitcoinChain(Network network, String url) {
         switch (network) {
             case MAIN:
-      
+                netParams = MainNe
