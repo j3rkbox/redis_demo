@@ -43,4 +43,6 @@ public class BitcoinChain extends AbstractChain {
         switch (network) {
             case MAIN:
                 netParams = MainNetParams.get();
-                break
+                break;
+            case TEST:
+    
