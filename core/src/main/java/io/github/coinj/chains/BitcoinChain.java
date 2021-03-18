@@ -45,4 +45,4 @@ public class BitcoinChain extends AbstractChain {
                 netParams = MainNetParams.get();
                 break;
             case TEST:
-    
+                netParams = TestNet3Params.
