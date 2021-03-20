@@ -49,4 +49,7 @@ public class BitcoinChain extends AbstractChain {
                 break;
         }
         this.url = url;
-  
+    }
+
+    @Override
+    publ
