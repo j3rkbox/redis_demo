@@ -47,4 +47,6 @@ public class BitcoinChain extends AbstractChain {
             case TEST:
                 netParams = TestNet3Params.get();
                 break;
-   
+        }
+        this.url = url;
+  
