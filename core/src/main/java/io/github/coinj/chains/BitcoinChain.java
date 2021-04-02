@@ -54,4 +54,5 @@ public class BitcoinChain extends AbstractChain {
     @Override
     public KeyPair generateKeyPair(String secret) {
         ECKey ecKey = ECKey.fromPrivate(ByteUtils.fromHexString(secret));
-        return new KeyPair(secret, Address.fromKey(netParams, ecKey, Scri
+        return new KeyPair(secret, Address.fromKey(netParams, ecKey, Script.ScriptType.P2PKH).toString());
+  
