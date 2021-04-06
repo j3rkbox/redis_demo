@@ -58,4 +58,5 @@ public class BitcoinChain extends AbstractChain {
     }
 
     @Override
-    public
+    public KeyPair generateKeyPair() {
+    
