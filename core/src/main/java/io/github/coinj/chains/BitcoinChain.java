@@ -59,4 +59,7 @@ public class BitcoinChain extends AbstractChain {
 
     @Override
     public KeyPair generateKeyPair() {
-        return generateKeyPair(new ECKey().getPrivateKe
+        return generateKeyPair(new ECKey().getPrivateKeyAsHex());
+    }
+
+    privat
