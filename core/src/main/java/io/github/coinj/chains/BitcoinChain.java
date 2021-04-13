@@ -62,4 +62,4 @@ public class BitcoinChain extends AbstractChain {
         return generateKeyPair(new ECKey().getPrivateKeyAsHex());
     }
 
-    privat
+    private BitcoinTransaction toB
