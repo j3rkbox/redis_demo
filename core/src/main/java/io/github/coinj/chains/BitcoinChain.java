@@ -63,4 +63,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     private BitcoinTransaction toBitcoinTx(RawTransaction rawTransaction, List<UnspentOutput> unspentOutputs) {
-        BigD
+        BigDecimal totalInputAmount = new
