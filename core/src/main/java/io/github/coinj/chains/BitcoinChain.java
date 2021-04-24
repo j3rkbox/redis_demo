@@ -74,4 +74,4 @@ public class BitcoinChain extends AbstractChain {
             totalOutputAmount = totalOutputAmount.add(output.getAmount());
         }
 
-  
+        if (totalInputAmount.com
