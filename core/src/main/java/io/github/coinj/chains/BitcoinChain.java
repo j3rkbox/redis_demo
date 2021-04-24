@@ -70,4 +70,4 @@ public class BitcoinChain extends AbstractChain {
         }
 
         BigDecimal totalOutputAmount = new BigDecimal(0);
-        for 
+        for (RawTransaction.Output outpu
