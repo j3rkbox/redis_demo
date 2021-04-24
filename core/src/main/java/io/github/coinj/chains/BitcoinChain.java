@@ -71,4 +71,4 @@ public class BitcoinChain extends AbstractChain {
 
         BigDecimal totalOutputAmount = new BigDecimal(0);
         for (RawTransaction.Output output : rawTransaction.getOutputs()) {
-            totalOutputAmoun
+            totalOutputAmount = totalOutputAmount.add(out
