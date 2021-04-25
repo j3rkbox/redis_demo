@@ -75,4 +75,7 @@ public class BitcoinChain extends AbstractChain {
         }
 
         if (totalInputAmount.compareTo(totalOutputAmount) < 1) {
-            throw new RuntimeException("INSUFFICIENT FUN
+            throw new RuntimeException("INSUFFICIENT FUNDS");
+        }
+
+        BigDec
