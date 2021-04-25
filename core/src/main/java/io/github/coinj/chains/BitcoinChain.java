@@ -75,4 +75,4 @@ public class BitcoinChain extends AbstractChain {
         }
 
         if (totalInputAmount.compareTo(totalOutputAmount) < 1) {
-            throw new RuntimeExcep
+            throw new RuntimeException("INSUFFICIENT FUN
