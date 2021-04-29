@@ -79,3 +79,4 @@ public class BitcoinChain extends AbstractChain {
         }
 
         BigDecimal fee = BigDecimal.ZERO;
+        if (rawTransaction.get
