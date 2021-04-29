@@ -78,4 +78,4 @@ public class BitcoinChain extends AbstractChain {
             throw new RuntimeException("INSUFFICIENT FUNDS");
         }
 
-        BigDec
+        BigDecimal fee = BigDecimal.ZERO;
