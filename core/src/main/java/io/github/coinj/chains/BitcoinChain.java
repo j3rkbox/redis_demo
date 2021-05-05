@@ -83,4 +83,5 @@ public class BitcoinChain extends AbstractChain {
             fee = rawTransaction.getFee();
         }
 
-        BitcoinTransaction bitcoinTx = new BitcoinTransaction
+        BitcoinTransaction bitcoinTx = new BitcoinTransaction(netParams);
+        for (UnspentOutpu
