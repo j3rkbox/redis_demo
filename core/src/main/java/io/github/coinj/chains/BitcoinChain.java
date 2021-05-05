@@ -84,4 +84,5 @@ public class BitcoinChain extends AbstractChain {
         }
 
         BitcoinTransaction bitcoinTx = new BitcoinTransaction(netParams);
-        for (UnspentOutpu
+        for (UnspentOutput output : unspentOutputs) {
+            T
