@@ -88,4 +88,4 @@ public class BitcoinChain extends AbstractChain {
             TransactionOutPoint outPoint = new TransactionOutPoint(netParams, output.getIndex(), Sha256Hash.wrap(output.getTxId()));
             bitcoinTx.addInput(new TransactionInput(netParams, bitcoinTx, ByteUtils.fromHexString(output.getScript()), outPoint, org.bitcoinj.core.Coin.valueOf(output.getValue())));
         }
-       
+        for (RawTransaction.O
