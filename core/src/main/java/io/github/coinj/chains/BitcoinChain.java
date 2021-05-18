@@ -89,4 +89,4 @@ public class BitcoinChain extends AbstractChain {
             bitcoinTx.addInput(new TransactionInput(netParams, bitcoinTx, ByteUtils.fromHexString(output.getScript()), outPoint, org.bitcoinj.core.Coin.valueOf(output.getValue())));
         }
         for (RawTransaction.Output output : rawTransaction.getOutputs()) {
-            Long sa
+            Long satoshi = output.getAmount(
