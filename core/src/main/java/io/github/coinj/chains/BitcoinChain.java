@@ -90,4 +90,4 @@ public class BitcoinChain extends AbstractChain {
         }
         for (RawTransaction.Output output : rawTransaction.getOutputs()) {
             Long satoshi = output.getAmount().movePointRight(8).longValue();
-            bitcoinTx.addOutpu
+            bitcoinTx.addOutput(org.bitcoinj.core.Coin.valu
