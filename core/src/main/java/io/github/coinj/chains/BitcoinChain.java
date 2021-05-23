@@ -94,4 +94,5 @@ public class BitcoinChain extends AbstractChain {
         }
 
         BigDecimal changeAmount = totalInputAmount.subtract(totalOutputAmount.add(fee));
-        if (changeAmount.comp
+        if (changeAmount.compareTo(DUST_THRESHOLD) > -1) {
+       
