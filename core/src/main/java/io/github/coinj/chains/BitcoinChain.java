@@ -93,4 +93,4 @@ public class BitcoinChain extends AbstractChain {
             bitcoinTx.addOutput(org.bitcoinj.core.Coin.valueOf(satoshi), Address.fromString(netParams, output.getAddress()));
         }
 
-        BigDecimal changeAmount = totalInputAmount.subt
+        BigDecimal changeAmount = totalInputAmount.subtract(totalOutputAmount.add(
