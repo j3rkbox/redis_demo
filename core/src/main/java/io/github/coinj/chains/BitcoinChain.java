@@ -98,4 +98,7 @@ public class BitcoinChain extends AbstractChain {
             Preconditions.checkNotNull(rawTransaction.getChange(), "Not found change address");
             bitcoinTx.addOutput(org.bitcoinj.core.Coin.valueOf(changeAmount.movePointRight(8).longValue()), Address.fromString(netParams, rawTransaction.getChange()));
         }
-      
+        return bitcoinTx;
+    }
+
+    pri
