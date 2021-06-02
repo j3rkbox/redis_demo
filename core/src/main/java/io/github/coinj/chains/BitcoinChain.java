@@ -96,4 +96,4 @@ public class BitcoinChain extends AbstractChain {
         BigDecimal changeAmount = totalInputAmount.subtract(totalOutputAmount.add(fee));
         if (changeAmount.compareTo(DUST_THRESHOLD) > -1) {
             Preconditions.checkNotNull(rawTransaction.getChange(), "Not found change address");
-            bitcoinTx.addOutput(org.bitcoinj.core.Coin.valueOf(changeAmount.movePointRight(8).longValue()), 
+            bitcoinTx.addOutput(org.bitcoinj.core.Coin.valueOf(changeAmount.movePointRight(8).longValue()), Address.fromString(netParams, rawT
