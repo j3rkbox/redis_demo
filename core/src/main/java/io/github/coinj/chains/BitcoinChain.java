@@ -95,4 +95,5 @@ public class BitcoinChain extends AbstractChain {
 
         BigDecimal changeAmount = totalInputAmount.subtract(totalOutputAmount.add(fee));
         if (changeAmount.compareTo(DUST_THRESHOLD) > -1) {
-            Preconditions.checkNotNull(rawTransaction.getChange(), "Not found 
+            Preconditions.checkNotNull(rawTransaction.getChange(), "Not found change address");
+            bitc
