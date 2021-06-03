@@ -101,4 +101,4 @@ public class BitcoinChain extends AbstractChain {
         return bitcoinTx;
     }
 
-    pri
+    private BigDecimal calcFee(RawT
