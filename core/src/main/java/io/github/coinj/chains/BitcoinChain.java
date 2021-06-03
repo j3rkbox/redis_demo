@@ -101,4 +101,4 @@ public class BitcoinChain extends AbstractChain {
         return bitcoinTx;
     }
 
-    private BigDecimal calcFee(RawTransaction rawTrans
+    private BigDecimal calcFee(RawTransaction rawTransaction, List<UnspentOutput> un
