@@ -104,4 +104,5 @@ public class BitcoinChain extends AbstractChain {
     private BigDecimal calcFee(RawTransaction rawTransaction, List<UnspentOutput> unspentOutputs) throws IOException {
         Request request = new Request.Builder()
                 .url(this.url + "/fee/1")
-                .build(
+                .build();
+        Response res
