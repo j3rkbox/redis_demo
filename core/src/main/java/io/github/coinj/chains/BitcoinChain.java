@@ -105,4 +105,4 @@ public class BitcoinChain extends AbstractChain {
         Request request = new Request.Builder()
                 .url(this.url + "/fee/1")
                 .build();
-        Response res
+        Response response = client.newCall(request).execut
