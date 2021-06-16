@@ -106,4 +106,5 @@ public class BitcoinChain extends AbstractChain {
                 .url(this.url + "/fee/1")
                 .build();
         Response response = client.newCall(request).execute();
-        JSONObject data = new JSONObject(Objects.requireNonNull(response.body()).string())
+        JSONObject data = new JSONObject(Objects.requireNonNull(response.body()).string());
+        BigDecimal fe
