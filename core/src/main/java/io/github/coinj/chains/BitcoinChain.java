@@ -109,4 +109,4 @@ public class BitcoinChain extends AbstractChain {
         JSONObject data = new JSONObject(Objects.requireNonNull(response.body()).string());
         BigDecimal feeRate = BigDecimal.valueOf(data.getDouble("feerate"));
 
-  
+        BigDecimal total = new 
