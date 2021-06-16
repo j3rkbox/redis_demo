@@ -107,4 +107,6 @@ public class BitcoinChain extends AbstractChain {
                 .build();
         Response response = client.newCall(request).execute();
         JSONObject data = new JSONObject(Objects.requireNonNull(response.body()).string());
-        BigDecimal feeRate = BigDecimal.valueOf(data.
+        BigDecimal feeRate = BigDecimal.valueOf(data.getDouble("feerate"));
+
+  
