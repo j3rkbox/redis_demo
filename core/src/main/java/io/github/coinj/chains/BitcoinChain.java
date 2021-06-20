@@ -110,4 +110,5 @@ public class BitcoinChain extends AbstractChain {
         BigDecimal feeRate = BigDecimal.valueOf(data.getDouble("feerate"));
 
         BigDecimal total = new BigDecimal(0);
-        for (UnspentOutput output : unspent
+        for (UnspentOutput output : unspentOutputs) {
+            BigDecimal
