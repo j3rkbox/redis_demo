@@ -119,4 +119,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     @Override
-    public PackedRawTrans
+    public PackedRawTransaction packTransaction(R
