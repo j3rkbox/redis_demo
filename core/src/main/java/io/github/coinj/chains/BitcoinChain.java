@@ -114,4 +114,4 @@ public class BitcoinChain extends AbstractChain {
             BigDecimal amount = BigDecimal.valueOf(output.getValue()).movePointLeft(8);
             total = total.add(amount);
         }
-        Bitcoi
+        BitcoinTransaction bitcoinTx = toBitcoinT
