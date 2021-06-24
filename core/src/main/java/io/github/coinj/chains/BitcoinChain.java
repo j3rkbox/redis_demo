@@ -115,4 +115,5 @@ public class BitcoinChain extends AbstractChain {
             total = total.add(amount);
         }
         BitcoinTransaction bitcoinTx = toBitcoinTx(rawTransaction, unspentOutputs);
-        return feeRate.multiply(BigDecimal.valueOf(bitcoinTx.ge
+        return feeRate.multiply(BigDecimal.valueOf(bitcoinTx.getMessageSizeForPriorityCalc()));
+  
