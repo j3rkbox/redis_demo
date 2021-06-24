@@ -116,4 +116,7 @@ public class BitcoinChain extends AbstractChain {
         }
         BitcoinTransaction bitcoinTx = toBitcoinTx(rawTransaction, unspentOutputs);
         return feeRate.multiply(BigDecimal.valueOf(bitcoinTx.getMessageSizeForPriorityCalc()));
-  
+    }
+
+    @Override
+    public PackedRawTrans
