@@ -119,4 +119,5 @@ public class BitcoinChain extends AbstractChain {
     }
 
     @Override
-    public PackedRawTransaction packTransaction(RawTransaction rawTransaction)
+    public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException {
+ 
