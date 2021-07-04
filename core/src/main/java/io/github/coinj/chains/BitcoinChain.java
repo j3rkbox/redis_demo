@@ -122,4 +122,4 @@ public class BitcoinChain extends AbstractChain {
     public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws IOException {
         Preconditions.checkArgument(BitcoinChain.COINS.contains(rawTransaction.getCoin()), "Unsupported " + rawTransaction.getCoin().toString() + "for Bitcoin Chain");
 
-        List<Un
+        List<UnspentOutput> unspentOutputs = new 
