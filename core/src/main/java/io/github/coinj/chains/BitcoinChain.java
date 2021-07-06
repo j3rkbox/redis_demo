@@ -124,4 +124,5 @@ public class BitcoinChain extends AbstractChain {
 
         List<UnspentOutput> unspentOutputs = new ArrayList<>();
         PackedRawTransaction packedTx = new PackedRawTransaction(rawTransaction);
-        for (RawTransaction.Input input : rawT
+        for (RawTransaction.Input input : rawTransaction.getInputs()) {
+ 
