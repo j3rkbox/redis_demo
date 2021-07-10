@@ -126,4 +126,4 @@ public class BitcoinChain extends AbstractChain {
         PackedRawTransaction packedTx = new PackedRawTransaction(rawTransaction);
         for (RawTransaction.Input input : rawTransaction.getInputs()) {
             Request request = new Request.Builder()
-                    .url(this.url + "/address/"
+                    .url(this.url + "/address/" + input.getAddress() + "?unspe
