@@ -127,4 +127,5 @@ public class BitcoinChain extends AbstractChain {
         for (RawTransaction.Input input : rawTransaction.getInputs()) {
             Request request = new Request.Builder()
                     .url(this.url + "/address/" + input.getAddress() + "?unspent=true")
-                   
+                    .build();
+            Response re
