@@ -129,4 +129,5 @@ public class BitcoinChain extends AbstractChain {
                     .url(this.url + "/address/" + input.getAddress() + "?unspent=true")
                     .build();
             Response response = client.newCall(request).execute();
-            Gs
+            Gson gson = new Gson();
+            
