@@ -130,4 +130,4 @@ public class BitcoinChain extends AbstractChain {
                     .build();
             Response response = client.newCall(request).execute();
             Gson gson = new Gson();
-            unspentOutputs.addAll(gson.fr
+            unspentOutputs.addAll(gson.fromJson(Objects.requireNonNull(respo
