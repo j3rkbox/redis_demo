@@ -132,4 +132,6 @@ public class BitcoinChain extends AbstractChain {
             Gson gson = new Gson();
             unspentOutputs.addAll(gson.fromJson(Objects.requireNonNull(response.body()).string(), new TypeToken<ArrayList<UnspentOutput>>(){}.getType()));
         }
-        packedTx.setExtra("utxo", unspentOutpu
+        packedTx.setExtra("utxo", unspentOutputs);
+
+        if (rawTransactio
