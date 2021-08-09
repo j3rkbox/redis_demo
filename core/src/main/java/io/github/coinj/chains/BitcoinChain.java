@@ -134,4 +134,5 @@ public class BitcoinChain extends AbstractChain {
         }
         packedTx.setExtra("utxo", unspentOutputs);
 
-        if (rawTransactio
+        if (rawTransaction.getFee() == null) {
+            
