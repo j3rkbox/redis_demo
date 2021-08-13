@@ -136,4 +136,4 @@ public class BitcoinChain extends AbstractChain {
 
         if (rawTransaction.getFee() == null) {
             BigDecimal fee = calcFee(rawTransaction, unspentOutputs);
-    
+            packedTx.setFee(fee);
