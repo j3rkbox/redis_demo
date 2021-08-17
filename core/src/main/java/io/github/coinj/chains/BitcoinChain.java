@@ -141,4 +141,4 @@ public class BitcoinChain extends AbstractChain {
         return packedTx;
     }
 
-    priv
+    private List<ECKey> selectKeys(String addr
