@@ -145,4 +145,5 @@ public class BitcoinChain extends AbstractChain {
         List<ECKey> selectedKeys = new ArrayList<>();
         for (String key : keys) {
             ECKey ecKey = ECKey.fromPrivate(ByteUtils.fromHexString(key));
-            Address addr = Address.fromString(netP
+            Address addr = Address.fromString(netParams, address);
+            Address 
