@@ -149,4 +149,5 @@ public class BitcoinChain extends AbstractChain {
             Address keyAddr = Address.fromKey(netParams, ecKey, addr.getOutputScriptType());
 
             if (addr.toString().equals(keyAddr.toString())) {
-                sel
+                selectedKeys.add(ecKey);
+        
