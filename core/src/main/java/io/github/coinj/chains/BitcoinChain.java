@@ -151,4 +151,5 @@ public class BitcoinChain extends AbstractChain {
             if (addr.toString().equals(keyAddr.toString())) {
                 selectedKeys.add(ecKey);
                 return selectedKeys;
-    
+            }
+        }
