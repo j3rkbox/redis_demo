@@ -153,3 +153,5 @@ public class BitcoinChain extends AbstractChain {
                 return selectedKeys;
             }
         }
+        return selectedKeys;
+  
