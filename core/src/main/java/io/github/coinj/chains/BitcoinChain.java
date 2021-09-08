@@ -157,4 +157,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     @Override
-    public
+    public SignedRawTransaction signTransaction(P
