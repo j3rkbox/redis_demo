@@ -158,4 +158,4 @@ public class BitcoinChain extends AbstractChain {
 
     @Override
     public SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> keys) {
-        List<UnspentOutput> unspentOutputs = (List
+        List<UnspentOutput> unspentOutputs = (List<UnspentOutput>) transactio
