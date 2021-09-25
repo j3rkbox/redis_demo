@@ -160,4 +160,4 @@ public class BitcoinChain extends AbstractChain {
     public SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> keys) {
         List<UnspentOutput> unspentOutputs = (List<UnspentOutput>) transaction.getExtra("utxo");
         BitcoinTransaction bitcoinTx = toBitcoinTx(transaction, unspentOutputs);
-        for (int i = 0; i < bitcoinTx.ge
+        for (int i = 0; i < bitcoinTx.getInputs().size(); i++) 
