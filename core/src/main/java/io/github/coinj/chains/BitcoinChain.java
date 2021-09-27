@@ -161,4 +161,5 @@ public class BitcoinChain extends AbstractChain {
         List<UnspentOutput> unspentOutputs = (List<UnspentOutput>) transaction.getExtra("utxo");
         BitcoinTransaction bitcoinTx = toBitcoinTx(transaction, unspentOutputs);
         for (int i = 0; i < bitcoinTx.getInputs().size(); i++) {
-            TransactionInput 
+            TransactionInput input = bitcoinTx.getInput(i);
+      
