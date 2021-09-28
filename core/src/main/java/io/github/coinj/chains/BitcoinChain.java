@@ -162,4 +162,4 @@ public class BitcoinChain extends AbstractChain {
         BitcoinTransaction bitcoinTx = toBitcoinTx(transaction, unspentOutputs);
         for (int i = 0; i < bitcoinTx.getInputs().size(); i++) {
             TransactionInput input = bitcoinTx.getInput(i);
-      
+            List<ECKey> ecKeys = se
