@@ -164,4 +164,4 @@ public class BitcoinChain extends AbstractChain {
             TransactionInput input = bitcoinTx.getInput(i);
             List<ECKey> ecKeys = selectKeys(unspentOutputs.get(i).getAddress(), keys);
             ECKey ecKey = ecKeys.get(0);
-            Sha
+            Sha256Hash hash = bitcoinTx.hashForSig
