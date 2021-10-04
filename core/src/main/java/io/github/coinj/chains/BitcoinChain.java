@@ -165,4 +165,5 @@ public class BitcoinChain extends AbstractChain {
             List<ECKey> ecKeys = selectKeys(unspentOutputs.get(i).getAddress(), keys);
             ECKey ecKey = ecKeys.get(0);
             Sha256Hash hash = bitcoinTx.hashForSignature(i, new Script(input.getScriptBytes()), org.bitcoinj.core.Transaction.SigHash.ALL, false);
-            ECKey.ECDSASigna
+            ECKey.ECDSASignature ecSig = ecKey.sign(hash);
+     
