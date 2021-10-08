@@ -168,4 +168,4 @@ public class BitcoinChain extends AbstractChain {
             ECKey.ECDSASignature ecSig = ecKey.sign(hash);
             TransactionSignature txSig = new TransactionSignature(ecSig, org.bitcoinj.core.Transaction.SigHash.ALL, false);
 
-            Script scriptPubKey = new 
+            Script scriptPubKey = new Script(input.getScriptBytes()
