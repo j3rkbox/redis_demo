@@ -169,4 +169,5 @@ public class BitcoinChain extends AbstractChain {
             TransactionSignature txSig = new TransactionSignature(ecSig, org.bitcoinj.core.Transaction.SigHash.ALL, false);
 
             Script scriptPubKey = new Script(input.getScriptBytes());
-            if (ScriptPattern.isP
+            if (ScriptPattern.isP2PK(scriptPubKey)) {
+       
