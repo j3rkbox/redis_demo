@@ -174,4 +174,5 @@ public class BitcoinChain extends AbstractChain {
             } else {
                 if (!ScriptPattern.isP2PKH(scriptPubKey)) {
                     return null;
-           
+                }
+                inp
