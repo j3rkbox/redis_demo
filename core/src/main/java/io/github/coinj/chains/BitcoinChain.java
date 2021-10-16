@@ -175,4 +175,4 @@ public class BitcoinChain extends AbstractChain {
                 if (!ScriptPattern.isP2PKH(scriptPubKey)) {
                     return null;
                 }
-                inp
+                input.setScriptSig(ScriptBuilder.cr
