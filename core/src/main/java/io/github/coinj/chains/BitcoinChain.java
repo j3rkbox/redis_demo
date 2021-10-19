@@ -176,4 +176,6 @@ public class BitcoinChain extends AbstractChain {
                     return null;
                 }
                 input.setScriptSig(ScriptBuilder.createInputScript(txSig, ecKey));
-        
+            }
+        }
+        // {"rawT
