@@ -178,4 +178,5 @@ public class BitcoinChain extends AbstractChain {
                 input.setScriptSig(ScriptBuilder.createInputScript(txSig, ecKey));
             }
         }
-        // {"rawT
+        // {"rawTx":"02....00"}
+        JSONObjec
