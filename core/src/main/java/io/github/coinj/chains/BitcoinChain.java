@@ -179,4 +179,5 @@ public class BitcoinChain extends AbstractChain {
             }
         }
         // {"rawTx":"02....00"}
-        JSONObjec
+        JSONObject rawTx = new JSONObject();
+  
