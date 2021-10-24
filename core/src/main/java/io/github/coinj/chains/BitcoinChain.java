@@ -180,4 +180,4 @@ public class BitcoinChain extends AbstractChain {
         }
         // {"rawTx":"02....00"}
         JSONObject rawTx = new JSONObject();
-  
+        rawTx.put("rawTx", ByteUtil
