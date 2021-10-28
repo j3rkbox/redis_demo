@@ -181,4 +181,7 @@ public class BitcoinChain extends AbstractChain {
         // {"rawTx":"02....00"}
         JSONObject rawTx = new JSONObject();
         rawTx.put("rawTx", ByteUtils.toHexString(bitcoinTx.bitcoinSerialize()));
-        return new SignedRawTransacti
+        return new SignedRawTransaction(transaction, rawTx);
+    }
+
+   
