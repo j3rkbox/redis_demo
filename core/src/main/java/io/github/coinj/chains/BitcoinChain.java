@@ -185,4 +185,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     @Override
-    public String sen
+    public String sendTransaction(SignedRawTransacti
