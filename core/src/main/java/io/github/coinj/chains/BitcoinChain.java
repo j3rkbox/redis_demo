@@ -186,4 +186,4 @@ public class BitcoinChain extends AbstractChain {
 
     @Override
     public String sendTransaction(SignedRawTransaction transaction) throws IOException {
-        RequestBody body = R
+        RequestBody body = RequestBody.create(transaction.
