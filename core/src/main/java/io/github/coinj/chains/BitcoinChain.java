@@ -188,4 +188,5 @@ public class BitcoinChain extends AbstractChain {
     public String sendTransaction(SignedRawTransaction transaction) throws IOException {
         RequestBody body = RequestBody.create(transaction.getRawTx().toString(), JSON);
         Request request = new Request.Builder()
-                .url(this
+                .url(this.url + "/tx/send")
+     
