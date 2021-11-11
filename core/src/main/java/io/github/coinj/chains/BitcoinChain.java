@@ -189,4 +189,5 @@ public class BitcoinChain extends AbstractChain {
         RequestBody body = RequestBody.create(transaction.getRawTx().toString(), JSON);
         Request request = new Request.Builder()
                 .url(this.url + "/tx/send")
-     
+                .post(body)
+           
