@@ -192,4 +192,4 @@ public class BitcoinChain extends AbstractChain {
                 .post(body)
                 .build();
         Response response = client.newCall(request).execute();
-        J
+        JSONObject data = new JSONOb
