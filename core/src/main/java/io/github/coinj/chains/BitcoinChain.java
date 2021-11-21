@@ -193,4 +193,4 @@ public class BitcoinChain extends AbstractChain {
                 .build();
         Response response = client.newCall(request).execute();
         JSONObject data = new JSONObject(Objects.requireNonNull(response.body()).string());
-       
+        return data.getString("tx
