@@ -196,4 +196,5 @@ public class BitcoinChain extends AbstractChain {
         return data.getString("txid");
     }
 
-    public String migrate(List<String> keys, int req
+    public String migrate(List<String> keys, int requiredConfirmations) {
+        Scrip
