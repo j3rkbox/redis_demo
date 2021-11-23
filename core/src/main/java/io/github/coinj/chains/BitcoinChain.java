@@ -197,4 +197,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     public String migrate(List<String> keys, int requiredConfirmations) {
-        Scrip
+        ScriptBuilder builder = new Script
