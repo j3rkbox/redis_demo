@@ -200,4 +200,4 @@ public class BitcoinChain extends AbstractChain {
         ScriptBuilder builder = new ScriptBuilder();
         builder.smallNum(requiredConfirmations);
         for (String key : keys) {
-            E
+            ECKey ecKey = ECKey.fromPr
