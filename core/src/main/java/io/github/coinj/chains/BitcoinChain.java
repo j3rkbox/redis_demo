@@ -199,4 +199,5 @@ public class BitcoinChain extends AbstractChain {
     public String migrate(List<String> keys, int requiredConfirmations) {
         ScriptBuilder builder = new ScriptBuilder();
         builder.smallNum(requiredConfirmations);
-        for (S
+        for (String key : keys) {
+            E
