@@ -201,4 +201,6 @@ public class BitcoinChain extends AbstractChain {
         builder.smallNum(requiredConfirmations);
         for (String key : keys) {
             ECKey ecKey = ECKey.fromPrivate(ByteUtils.fromHexString(key));
-            builder.data(ecKey.get
+            builder.data(ecKey.getPubKey());
+        }
+        b
