@@ -204,4 +204,5 @@ public class BitcoinChain extends AbstractChain {
             builder.data(ecKey.getPubKey());
         }
         builder.smallNum(keys.size());
+        builder.op(OP_CHECKMULTISIG);
     
