@@ -205,4 +205,6 @@ public class BitcoinChain extends AbstractChain {
         }
         builder.smallNum(keys.size());
         builder.op(OP_CHECKMULTISIG);
-        Script script = builder.build
+        Script script = builder.build();
+
+        byte[] bytes = Utils.s
