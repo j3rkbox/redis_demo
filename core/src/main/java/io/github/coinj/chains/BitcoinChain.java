@@ -207,4 +207,4 @@ public class BitcoinChain extends AbstractChain {
         builder.op(OP_CHECKMULTISIG);
         Script script = builder.build();
 
-        byte[] bytes = Utils.s
+        byte[] bytes = Utils.sha256hash160(script.getProgram());
