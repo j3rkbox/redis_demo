@@ -208,3 +208,4 @@ public class BitcoinChain extends AbstractChain {
         Script script = builder.build();
 
         byte[] bytes = Utils.sha256hash160(script.getProgram());
+        byte[] addressBytes
