@@ -211,4 +211,4 @@ public class BitcoinChain extends AbstractChain {
         byte[] addressBytes = new byte[1 + bytes.length + 4];
         addressBytes[0] = (byte) netParams.getP2SHHeader();
         System.arraycopy(bytes, 0, addressBytes, 1, bytes.length);
-        byte[] 
+        byte[] checksum = Sha256Hash.hashTwice(addre
