@@ -213,4 +213,7 @@ public class BitcoinChain extends AbstractChain {
         System.arraycopy(bytes, 0, addressBytes, 1, bytes.length);
         byte[] checksum = Sha256Hash.hashTwice(addressBytes, 0, bytes.length + 1);
         System.arraycopy(checksum, 0, addressBytes, bytes.length + 1, 4);
-        return Base58.encode(addres
+        return Base58.encode(addressBytes);
+    }
+
+    static class Bit
