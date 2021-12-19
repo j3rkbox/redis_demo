@@ -216,4 +216,5 @@ public class BitcoinChain extends AbstractChain {
         return Base58.encode(addressBytes);
     }
 
-    static class BitcoinTransaction extends Transacti
+    static class BitcoinTransaction extends Transaction {
+        public BitcoinTra
