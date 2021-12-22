@@ -217,4 +217,4 @@ public class BitcoinChain extends AbstractChain {
     }
 
     static class BitcoinTransaction extends Transaction {
-        public BitcoinTra
+        public BitcoinTransaction(NetworkParameters pa
