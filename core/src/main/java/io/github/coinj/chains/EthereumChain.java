@@ -1,3 +1,3 @@
 package io.github.coinj.chains;
 
-import
+import com.google.common.base.Precon
