@@ -5,4 +5,5 @@ import com.google.common.collect.ImmutableList;
 import io.github.coinj.*;
 import io.github.coinj.RawTransaction;
 import io.github.coinj.SignedRawTransaction;
-import 
+import org.bitcoinj.core.ECKey;
+impo
