@@ -6,4 +6,5 @@ import io.github.coinj.*;
 import io.github.coinj.RawTransaction;
 import io.github.coinj.SignedRawTransaction;
 import org.bitcoinj.core.ECKey;
-import org.bouncycastle.pqc.math.line
+import org.bouncycastle.pqc.math.linearalgebra.ByteUtils;
+import o
