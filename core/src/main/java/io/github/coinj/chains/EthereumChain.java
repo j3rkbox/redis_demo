@@ -22,4 +22,6 @@ import java.math.BigInteger;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-public cl
+public class EthereumChain implements Chain {
+
+    
