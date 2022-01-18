@@ -24,4 +24,4 @@ import java.util.concurrent.ExecutionException;
 
 public class EthereumChain implements Chain {
 
-    public static final List<io
+    public static final List<io.github.coinj.Coin> COINS = Immut
