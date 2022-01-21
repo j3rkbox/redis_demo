@@ -26,4 +26,4 @@ public class EthereumChain implements Chain {
 
     public static final List<io.github.coinj.Coin> COINS = ImmutableList.of(Coin.ETH, Coin.USDT);
 
-    private final static String D
+    private final static String DEFAULT_URL = "https://a
