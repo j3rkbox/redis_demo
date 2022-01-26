@@ -29,4 +29,6 @@ public class EthereumChain implements Chain {
     private final static String DEFAULT_URL = "https://api.infura.io/v1/jsonrpc/mainnet";
 
     private long chainId;
-    priv
+    private final String url;
+
+    publ
