@@ -31,4 +31,5 @@ public class EthereumChain implements Chain {
     private long chainId;
     private final String url;
 
-    public EthereumChain(Network network, 
+    public EthereumChain(Network network, String url) {
+        switch
