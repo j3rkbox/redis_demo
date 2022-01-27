@@ -31,4 +31,4 @@ public class EthereumChain implements Chain {
     private long chainId;
     private final String url;
 
-    publ
+    public EthereumChain(Network network, 
