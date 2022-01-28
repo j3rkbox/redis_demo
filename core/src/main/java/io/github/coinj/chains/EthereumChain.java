@@ -32,4 +32,5 @@ public class EthereumChain implements Chain {
     private final String url;
 
     public EthereumChain(Network network, String url) {
-        switch
+        switch (network) {
+            case MAIN:
