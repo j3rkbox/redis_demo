@@ -36,4 +36,4 @@ public class EthereumChain implements Chain {
             case MAIN:
                 chainId = ChainIdLong.MAINNET;
             case TEST:
-          
+                chainId = ChainIdLong
