@@ -38,4 +38,7 @@ public class EthereumChain implements Chain {
             case TEST:
                 chainId = ChainIdLong.KOVAN;
         }
-        t
+        this.url = url;
+    }
+
+   
