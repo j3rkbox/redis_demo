@@ -41,4 +41,4 @@ public class EthereumChain implements Chain {
         this.url = url;
     }
 
-   
+    private int getDecimals(Co
