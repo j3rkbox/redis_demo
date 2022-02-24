@@ -45,4 +45,6 @@ public class EthereumChain implements Chain {
         Preconditions.checkArgument(COINS.contains(coin));
         switch (coin) {
             case USDT:
-                return
+                return 6;
+            default:
+                r
