@@ -44,4 +44,5 @@ public class EthereumChain implements Chain {
     private int getDecimals(Coin coin) {
         Preconditions.checkArgument(COINS.contains(coin));
         switch (coin) {
-        
+            case USDT:
+                return
