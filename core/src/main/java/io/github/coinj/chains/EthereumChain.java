@@ -47,4 +47,8 @@ public class EthereumChain implements Chain {
             case USDT:
                 return 6;
             default:
-                r
+                return 18;
+        }
+    }
+
+    @Over
