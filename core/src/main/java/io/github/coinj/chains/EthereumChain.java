@@ -51,4 +51,5 @@ public class EthereumChain implements Chain {
         }
     }
 
-    @Over
+    @Override
+    public KeyPair generateKeyPa
