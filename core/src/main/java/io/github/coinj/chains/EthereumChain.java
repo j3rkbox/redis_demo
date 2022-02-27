@@ -52,4 +52,5 @@ public class EthereumChain implements Chain {
     }
 
     @Override
-    public KeyPair generateKeyPa
+    public KeyPair generateKeyPair(String secret) {
+        ECKey
