@@ -53,4 +53,5 @@ public class EthereumChain implements Chain {
 
     @Override
     public KeyPair generateKeyPair(String secret) {
-        ECKey ecKey = ECKey.fromPrivate(Byt
+        ECKey ecKey = ECKey.fromPrivate(ByteUtils.fromHexString(secret));
+      
