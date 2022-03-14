@@ -63,4 +63,5 @@ public class EthereumChain implements Chain {
         return generateKeyPair(new ECKey().getPrivateKeyAsHex());
     }
 
-    @O
+    @Override
+    public PackedRawTransac
