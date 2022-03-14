@@ -60,4 +60,7 @@ public class EthereumChain implements Chain {
 
     @Override
     public KeyPair generateKeyPair() {
-        return generateKeyPair(new ECKey().getPri
+        return generateKeyPair(new ECKey().getPrivateKeyAsHex());
+    }
+
+    @O
