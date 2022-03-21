@@ -64,4 +64,5 @@ public class EthereumChain implements Chain {
     }
 
     @Override
-    public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws ExecutionException, Interrupte
+    public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws ExecutionException, InterruptedException {
+        PackedRawTransact
