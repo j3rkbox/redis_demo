@@ -65,4 +65,5 @@ public class EthereumChain implements Chain {
 
     @Override
     public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws ExecutionException, InterruptedException {
-        PackedRawTransaction packedTx = new PackedRawTransaction(rawTransac
+        PackedRawTransaction packedTx = new PackedRawTransaction(rawTransaction);
+        Web3j web3 = Web3j.build(
