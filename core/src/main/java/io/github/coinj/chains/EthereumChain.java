@@ -67,4 +67,5 @@ public class EthereumChain implements Chain {
     public PackedRawTransaction packTransaction(RawTransaction rawTransaction) throws ExecutionException, InterruptedException {
         PackedRawTransaction packedTx = new PackedRawTransaction(rawTransaction);
         Web3j web3 = Web3j.build(new HttpService(url));
-        BigInteger gasPrice = web3.ethGasPrice().sendAsync().get().
+        BigInteger gasPrice = web3.ethGasPrice().sendAsync().get().getGasPrice();
+        Ra
