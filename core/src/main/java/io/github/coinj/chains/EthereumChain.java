@@ -68,4 +68,4 @@ public class EthereumChain implements Chain {
         PackedRawTransaction packedTx = new PackedRawTransaction(rawTransaction);
         Web3j web3 = Web3j.build(new HttpService(url));
         BigInteger gasPrice = web3.ethGasPrice().sendAsync().get().getGasPrice();
-        Ra
+        RawTransaction.Input fro
