@@ -69,3 +69,4 @@ public class EthereumChain implements Chain {
         Web3j web3 = Web3j.build(new HttpService(url));
         BigInteger gasPrice = web3.ethGasPrice().sendAsync().get().getGasPrice();
         RawTransaction.Input from = rawTransaction.getInputs().get(0);
+        BigInteger nonce = web3.
