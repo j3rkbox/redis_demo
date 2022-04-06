@@ -70,4 +70,5 @@ public class EthereumChain implements Chain {
         BigInteger gasPrice = web3.ethGasPrice().sendAsync().get().getGasPrice();
         RawTransaction.Input from = rawTransaction.getInputs().get(0);
         BigInteger nonce = web3.ethGetTransactionCount(from.getAddress(), DefaultBlockParameterName.LATEST).sendAsync().get().getTransactionCount();
-        BigInteger gasLimit = n
+        BigInteger gasLimit = null;
+        RawTransaction.Output out
