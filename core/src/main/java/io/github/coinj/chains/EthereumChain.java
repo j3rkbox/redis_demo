@@ -72,4 +72,4 @@ public class EthereumChain implements Chain {
         BigInteger nonce = web3.ethGetTransactionCount(from.getAddress(), DefaultBlockParameterName.LATEST).sendAsync().get().getTransactionCount();
         BigInteger gasLimit = null;
         RawTransaction.Output output = packedTx.getOutputs().get(0);
- 
+        BigInteger value = null;
