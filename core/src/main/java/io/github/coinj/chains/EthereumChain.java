@@ -73,3 +73,4 @@ public class EthereumChain implements Chain {
         BigInteger gasLimit = null;
         RawTransaction.Output output = packedTx.getOutputs().get(0);
         BigInteger value = null;
+        BigInteger transfer
