@@ -73,4 +73,5 @@ public class EthereumChain implements Chain {
         BigInteger gasLimit = null;
         RawTransaction.Output output = packedTx.getOutputs().get(0);
         BigInteger value = null;
-        BigInteger transferValue = output.getAmount().movePointRight(this.getDecimals(rawTransaction.getCoin())
+        BigInteger transferValue = output.getAmount().movePointRight(this.getDecimals(rawTransaction.getCoin())).toBigInteger();
+        String data
