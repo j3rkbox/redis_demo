@@ -75,4 +75,5 @@ public class EthereumChain implements Chain {
         BigInteger value = null;
         BigInteger transferValue = output.getAmount().movePointRight(this.getDecimals(rawTransaction.getCoin())).toBigInteger();
         String data = "";
-        if (rawTransaction.getCoin() == Coin.ET
+        if (rawTransaction.getCoin() == Coin.ETH) {
+            value = transferValue;
