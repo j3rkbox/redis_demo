@@ -77,3 +77,4 @@ public class EthereumChain implements Chain {
         String data = "";
         if (rawTransaction.getCoin() == Coin.ETH) {
             value = transferValue;
+            EthEstimateGas estimateGas 
