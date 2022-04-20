@@ -77,4 +77,4 @@ public class EthereumChain implements Chain {
         String data = "";
         if (rawTransaction.getCoin() == Coin.ETH) {
             value = transferValue;
-            EthEstimateGas estimateGas = web3.ethEstimateGas(new org.web3j.protocol.core.methods.request.Transaction(from.getAddress(
+            EthEstimateGas estimateGas = web3.ethEstimateGas(new org.web3j.protocol.core.methods.request.Transaction(from.getAddress(), nonce, null, null, output.getAddress
