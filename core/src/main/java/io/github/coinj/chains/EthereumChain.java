@@ -79,4 +79,5 @@ public class EthereumChain implements Chain {
             value = transferValue;
             EthEstimateGas estimateGas = web3.ethEstimateGas(new org.web3j.protocol.core.methods.request.Transaction(from.getAddress(), nonce, null, null, output.getAddress(), value, null)).sendAsync().get();
             gasLimit = estimateGas.getAmountUsed();
-        } 
+        } else {
+            value = BigInteger.
