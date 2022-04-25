@@ -81,4 +81,4 @@ public class EthereumChain implements Chain {
             gasLimit = estimateGas.getAmountUsed();
         } else {
             value = BigInteger.ZERO;
-            String amountHex = 
+            String amountHex = ByteUtils.toHexString(transferVa
