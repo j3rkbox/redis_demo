@@ -83,4 +83,5 @@ public class EthereumChain implements Chain {
             value = BigInteger.ZERO;
             String amountHex = ByteUtils.toHexString(transferValue.toByteArray());
             String amountPrefix = "00000000000000000000000000000000000000000000000000000000";
-            data = "0xa9059cbb000000000000000000000000" + output.getAddress().substring(2) + amountPrefix.substring(amountPrefix.length() - amountHex
+            data = "0xa9059cbb000000000000000000000000" + output.getAddress().substring(2) + amountPrefix.substring(amountPrefix.length() - amountHex.length()) + amountHex;
+            EthE
