@@ -85,4 +85,4 @@ public class EthereumChain implements Chain {
             String amountPrefix = "00000000000000000000000000000000000000000000000000000000";
             data = "0xa9059cbb000000000000000000000000" + output.getAddress().substring(2) + amountPrefix.substring(amountPrefix.length() - amountHex.length()) + amountHex;
             EthEstimateGas estimateGas = web3.ethEstimateGas(new org.web3j.protocol.core.methods.request.Transaction(from.getAddress(), nonce, null, null, output.getAddress(), value, data)).sendAsync().get();
-            gasLimit
+            gasLimit = estimateGas.getAmountUsed()
