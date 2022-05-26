@@ -88,4 +88,4 @@ public class EthereumChain implements Chain {
             gasLimit = estimateGas.getAmountUsed();
         }
 
-        Preconditions.checkArgument(gasLimit.compare
+        Preconditions.checkArgument(gasLimit.compareTo(BigInteger.valueOf(100000L)) > 0, "Too 
