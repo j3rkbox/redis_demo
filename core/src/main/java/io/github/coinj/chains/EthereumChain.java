@@ -90,4 +90,5 @@ public class EthereumChain implements Chain {
 
         Preconditions.checkArgument(gasLimit.compareTo(BigInteger.valueOf(100000L)) > 0, "Too much gas limit");
 
-        if (packedTx.getFee() == nul
+        if (packedTx.getFee() == null) {
+            BigInteger fee = gas
