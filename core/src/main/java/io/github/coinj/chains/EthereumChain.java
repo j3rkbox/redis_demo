@@ -92,4 +92,4 @@ public class EthereumChain implements Chain {
 
         if (packedTx.getFee() == null) {
             BigInteger fee = gasPrice.multiply(gasLimit);
-    
+            packedTx.setFee(n
