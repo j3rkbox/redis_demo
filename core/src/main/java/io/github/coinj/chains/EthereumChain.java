@@ -94,4 +94,5 @@ public class EthereumChain implements Chain {
             BigInteger fee = gasPrice.multiply(gasLimit);
             packedTx.setFee(new BigDecimal(fee).movePointLeft(18));
         }
-        packedTx.se
+        packedTx.setExtra("gasPrice", gasPrice);
+        packe
