@@ -97,4 +97,4 @@ public class EthereumChain implements Chain {
         packedTx.setExtra("gasPrice", gasPrice);
         packedTx.setExtra("gasLimit", gasLimit);
         packedTx.setExtra("nonce", nonce);
-        p
+        packedTx.setExtra("data", dat
