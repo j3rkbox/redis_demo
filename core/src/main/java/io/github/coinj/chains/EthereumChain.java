@@ -99,4 +99,7 @@ public class EthereumChain implements Chain {
         packedTx.setExtra("nonce", nonce);
         packedTx.setExtra("data", data);
         return packedTx;
- 
+    }
+
+    @Override
+    publi
