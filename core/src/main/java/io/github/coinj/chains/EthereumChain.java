@@ -102,4 +102,4 @@ public class EthereumChain implements Chain {
     }
 
     @Override
-    publi
+    public SignedRawTransaction signTran
