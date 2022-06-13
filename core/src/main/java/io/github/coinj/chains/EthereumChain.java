@@ -102,4 +102,4 @@ public class EthereumChain implements Chain {
     }
 
     @Override
-    public SignedRawTransaction signTransaction(PackedRawTransaction tr
+    public SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String>
