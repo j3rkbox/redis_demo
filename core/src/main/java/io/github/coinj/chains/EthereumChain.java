@@ -105,4 +105,5 @@ public class EthereumChain implements Chain {
     public SignedRawTransaction signTransaction(PackedRawTransaction transaction, List<String> keys) {
         BigInteger nonce = (BigInteger) transaction.getExtra("nonce");
         BigInteger gasPrice = (BigInteger) transaction.getExtra("gasPrice");
-        BigInteger gasLimit = (BigInteger) transaction.getExtra("gasLi
+        BigInteger gasLimit = (BigInteger) transaction.getExtra("gasLimit");
+        BigInteger value = (
