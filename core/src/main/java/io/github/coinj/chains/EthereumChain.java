@@ -106,4 +106,5 @@ public class EthereumChain implements Chain {
         BigInteger nonce = (BigInteger) transaction.getExtra("nonce");
         BigInteger gasPrice = (BigInteger) transaction.getExtra("gasPrice");
         BigInteger gasLimit = (BigInteger) transaction.getExtra("gasLimit");
-        BigInteger value = (BigInteger) transaction.getExt
+        BigInteger value = (BigInteger) transaction.getExtra("value");
+        String dat
