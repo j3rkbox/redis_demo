@@ -109,4 +109,5 @@ public class EthereumChain implements Chain {
         BigInteger value = (BigInteger) transaction.getExtra("value");
         String data = (String) transaction.getExtra("data");
 
-        RawTransaction.Output to = transaction.get
+        RawTransaction.Output to = transaction.getOutputs().get(0);
+        or
