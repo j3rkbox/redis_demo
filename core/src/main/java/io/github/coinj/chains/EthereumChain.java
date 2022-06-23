@@ -110,4 +110,4 @@ public class EthereumChain implements Chain {
         String data = (String) transaction.getExtra("data");
 
         RawTransaction.Output to = transaction.getOutputs().get(0);
-        or
+        org.web3j.crypto.RawTransaction rawTransaction
