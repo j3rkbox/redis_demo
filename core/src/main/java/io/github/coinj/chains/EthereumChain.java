@@ -111,4 +111,6 @@ public class EthereumChain implements Chain {
 
         RawTransaction.Output to = transaction.getOutputs().get(0);
         org.web3j.crypto.RawTransaction rawTransaction = org.web3j.crypto.RawTransaction.createTransaction(
-                nonce, gasPrice, gasLimit, to.getAddress(),
+                nonce, gasPrice, gasLimit, to.getAddress(), value, data);
+
+       
