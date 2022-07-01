@@ -114,4 +114,5 @@ public class EthereumChain implements Chain {
                 nonce, gasPrice, gasLimit, to.getAddress(), value, data);
 
         // sign & send our transaction
-        byte[] signedMessage = TransactionEncoder.signMessage(rawTransaction, chainId, Credentials.crea
+        byte[] signedMessage = TransactionEncoder.signMessage(rawTransaction, chainId, Credentials.create(keys.get(0)));
+        String hex
