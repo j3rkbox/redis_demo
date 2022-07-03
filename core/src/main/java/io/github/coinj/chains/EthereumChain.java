@@ -115,4 +115,4 @@ public class EthereumChain implements Chain {
 
         // sign & send our transaction
         byte[] signedMessage = TransactionEncoder.signMessage(rawTransaction, chainId, Credentials.create(keys.get(0)));
-        String hex
+        String hexValue = Numeric.toHexS
