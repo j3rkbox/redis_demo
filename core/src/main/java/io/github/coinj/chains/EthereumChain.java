@@ -118,4 +118,5 @@ public class EthereumChain implements Chain {
         String hexValue = Numeric.toHexString(signedMessage);
         /*
             {
-     
+              "jsonrpc": "2.0",
+          
