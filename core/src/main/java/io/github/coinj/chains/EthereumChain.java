@@ -120,4 +120,4 @@ public class EthereumChain implements Chain {
             {
               "jsonrpc": "2.0",
               "id": 10,
-              "met
+              "method": "eth_sendRawTransac
