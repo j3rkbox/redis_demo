@@ -123,4 +123,7 @@ public class EthereumChain implements Chain {
               "method": "eth_sendRawTransaction",
               "params": [
                 "<hex>"
-       
+              ]
+            }
+         */
+        
