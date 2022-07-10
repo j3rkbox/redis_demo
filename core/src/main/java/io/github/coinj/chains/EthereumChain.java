@@ -127,4 +127,5 @@ public class EthereumChain implements Chain {
             }
          */
         JSONObject rawTx = new JSONObject();
-        rawTx.put("jsonrpc", "
+        rawTx.put("jsonrpc", "2.0");
+        rawTx.put("id", 1)
