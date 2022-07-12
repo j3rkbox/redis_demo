@@ -131,4 +131,5 @@ public class EthereumChain implements Chain {
         rawTx.put("id", 1);
         rawTx.put("method", "eth_sendRawTransaction");
         JSONArray rawTxParams = new JSONArray();
-        rawTx
+        rawTxParams.put(hexValue);
+        rawT
