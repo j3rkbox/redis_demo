@@ -130,4 +130,5 @@ public class EthereumChain implements Chain {
         rawTx.put("jsonrpc", "2.0");
         rawTx.put("id", 1);
         rawTx.put("method", "eth_sendRawTransaction");
-        JSONArray rawTxPa
+        JSONArray rawTxParams = new JSONArray();
+        rawTx
