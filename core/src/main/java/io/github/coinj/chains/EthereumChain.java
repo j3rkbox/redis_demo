@@ -132,4 +132,5 @@ public class EthereumChain implements Chain {
         rawTx.put("method", "eth_sendRawTransaction");
         JSONArray rawTxParams = new JSONArray();
         rawTxParams.put(hexValue);
-        rawT
+        rawTx.put("params", rawTxParams);
+   
