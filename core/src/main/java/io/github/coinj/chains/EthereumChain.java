@@ -134,4 +134,4 @@ public class EthereumChain implements Chain {
         rawTxParams.put(hexValue);
         rawTx.put("params", rawTxParams);
         rawTx.put("rawTx", rawTx);
-   
+        return new SignedRawTransac
