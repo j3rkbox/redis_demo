@@ -138,4 +138,4 @@ public class EthereumChain implements Chain {
     }
 
     @Override
-    public String sendTransa
+    public String sendTransaction(SignedRawTransactio
