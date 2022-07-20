@@ -139,4 +139,6 @@ public class EthereumChain implements Chain {
 
     @Override
     public String sendTransaction(SignedRawTransaction transaction) {
-        retu
+        return null;
+    }
+}
