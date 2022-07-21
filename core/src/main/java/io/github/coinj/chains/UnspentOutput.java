@@ -1,3 +1,3 @@
 package io.github.coinj.chains;
 
-import com.g
+import com.google.gson.annotations.Serialize
