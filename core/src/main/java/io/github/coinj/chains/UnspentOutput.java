@@ -1,3 +1,5 @@
 package io.github.coinj.chains;
 
-import com.google.gson.annotations.Serialize
+import com.google.gson.annotations.SerializedName;
+
+public class UnspentOut
