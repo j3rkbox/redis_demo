@@ -2,4 +2,5 @@ package io.github.coinj.chains;
 
 import com.google.gson.annotations.SerializedName;
 
-public class UnspentOut
+public class UnspentOutput {
+    @SerializedName("mintTxid")
