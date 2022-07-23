@@ -5,4 +5,5 @@ import com.google.gson.annotations.SerializedName;
 public class UnspentOutput {
     @SerializedName("mintTxid")
     private String txId;
-    @Serial
+    @SerializedName("mintIndex")
+    private in
