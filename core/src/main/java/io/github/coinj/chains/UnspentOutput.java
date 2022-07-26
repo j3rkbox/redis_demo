@@ -8,4 +8,5 @@ public class UnspentOutput {
     @SerializedName("mintIndex")
     private int index;
     private String address;
-    private Str
+    private String script;
+    private Long v
