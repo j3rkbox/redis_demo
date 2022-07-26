@@ -7,4 +7,5 @@ public class UnspentOutput {
     private String txId;
     @SerializedName("mintIndex")
     private int index;
-    private String
+    private String address;
+    private Str
