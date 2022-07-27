@@ -9,4 +9,6 @@ public class UnspentOutput {
     private int index;
     private String address;
     private String script;
-    private Long v
+    private Long value;
+
+    public UnspentOutput(Strin
