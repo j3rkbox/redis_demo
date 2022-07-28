@@ -11,4 +11,5 @@ public class UnspentOutput {
     private String script;
     private Long value;
 
-    public UnspentOutput(String txId, int index, String address, 
+    public UnspentOutput(String txId, int index, String address, String script, Long value) {
+      
