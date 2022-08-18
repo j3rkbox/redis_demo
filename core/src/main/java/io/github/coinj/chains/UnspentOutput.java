@@ -14,4 +14,5 @@ public class UnspentOutput {
     public UnspentOutput(String txId, int index, String address, String script, Long value) {
         this.txId = txId;
         this.index = index;
-        this.addres
+        this.address = address;
+        this.scrip
