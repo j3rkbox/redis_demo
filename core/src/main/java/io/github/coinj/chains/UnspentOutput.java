@@ -15,4 +15,5 @@ public class UnspentOutput {
         this.txId = txId;
         this.index = index;
         this.address = address;
-        this.scrip
+        this.script = script;
+        this.value
