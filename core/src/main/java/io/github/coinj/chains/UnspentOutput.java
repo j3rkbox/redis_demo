@@ -21,4 +21,6 @@ public class UnspentOutput {
 
     public String getTxId() {
         return txId;
-  
+    }
+
+    public void setTxId(String txI
