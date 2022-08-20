@@ -16,4 +16,7 @@ public class UnspentOutput {
         this.index = index;
         this.address = address;
         this.script = script;
-        this.value
+        this.value = value;
+    }
+
+    public Strin
