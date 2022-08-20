@@ -19,4 +19,6 @@ public class UnspentOutput {
         this.value = value;
     }
 
-    public Strin
+    public String getTxId() {
+        return txId;
+  
