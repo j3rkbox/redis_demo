@@ -27,3 +27,4 @@ public class UnspentOutput {
         this.txId = txId;
     }
 
+    public int getIndex() {
