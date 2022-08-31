@@ -28,3 +28,5 @@ public class UnspentOutput {
     }
 
     public int getIndex() {
+        return index;
+   
