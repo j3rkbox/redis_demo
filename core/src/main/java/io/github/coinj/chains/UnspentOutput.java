@@ -35,4 +35,5 @@ public class UnspentOutput {
         this.index = index;
     }
 
-   
+    public String getAddress() {
+       
