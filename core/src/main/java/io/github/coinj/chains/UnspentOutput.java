@@ -31,4 +31,5 @@ public class UnspentOutput {
         return index;
     }
 
-    public void setIndex
+    public void setIndex(int index) {
+        this.
