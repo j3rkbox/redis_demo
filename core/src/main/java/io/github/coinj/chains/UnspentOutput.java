@@ -32,4 +32,7 @@ public class UnspentOutput {
     }
 
     public void setIndex(int index) {
-        this.
+        this.index = index;
+    }
+
+   
