@@ -40,3 +40,4 @@ public class UnspentOutput {
     }
 
     public void setAddress(String address) {
+        this.address = addre
