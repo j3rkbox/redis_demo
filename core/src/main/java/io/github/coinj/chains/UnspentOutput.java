@@ -36,4 +36,7 @@ public class UnspentOutput {
     }
 
     public String getAddress() {
-       
+        return address;
+    }
+
+    publ
