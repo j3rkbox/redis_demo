@@ -39,4 +39,4 @@ public class UnspentOutput {
         return address;
     }
 
-    publ
+    public void setAddress(String address) {
