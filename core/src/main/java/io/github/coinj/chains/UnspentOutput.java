@@ -45,4 +45,6 @@ public class UnspentOutput {
 
     public String getScript() {
         return script;
-   
+    }
+
+    public void setScript(Str
