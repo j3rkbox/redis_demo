@@ -55,4 +55,5 @@ public class UnspentOutput {
         return value;
     }
 
-    public void setValue(Long va
+    public void setValue(Long value) {
+        this.valu
