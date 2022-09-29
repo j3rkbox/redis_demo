@@ -43,4 +43,6 @@ public class UnspentOutput {
         this.address = address;
     }
 
-    public Stri
+    public String getScript() {
+        return script;
+   
