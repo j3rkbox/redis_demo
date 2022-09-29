@@ -55,4 +55,4 @@ public class UnspentOutput {
         return value;
     }
 
-    pub
+    public void setValue(Long va
