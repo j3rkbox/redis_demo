@@ -56,4 +56,6 @@ public class UnspentOutput {
     }
 
     public void setValue(Long value) {
-        this.valu
+        this.value = value;
+    }
+}
