@@ -52,4 +52,7 @@ public class UnspentOutput {
     }
 
     public Long getValue() {
-        
+        return value;
+    }
+
+    pub
