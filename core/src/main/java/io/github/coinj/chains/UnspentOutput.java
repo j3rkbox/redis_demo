@@ -51,4 +51,5 @@ public class UnspentOutput {
         this.script = script;
     }
 
- 
+    public Long getValue() {
+        
