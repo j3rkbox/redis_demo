@@ -1,1 +1,5 @@
-pl
+plugins {
+    id 'java'
+}
+
+gr
