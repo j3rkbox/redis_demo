@@ -6,4 +6,8 @@ group 'io.github.pengpengliu'
 version '1.0-SNAPSHOT'
 
 repositories {
-    mavenCentra
+    mavenCentral()
+}
+
+dependencies {
+    implementation
