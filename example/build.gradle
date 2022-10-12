@@ -2,4 +2,5 @@ plugins {
     id 'java'
 }
 
-group 'io.github.pengpengli
+group 'io.github.pengpengliu'
+version '1.0-SNAPSHOT'
