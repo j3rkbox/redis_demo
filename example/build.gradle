@@ -11,4 +11,4 @@ repositories {
 
 dependencies {
     implementation project(':core')
-    testCompil
+    testCompile group: 'junit', name: 'junit', version: '
