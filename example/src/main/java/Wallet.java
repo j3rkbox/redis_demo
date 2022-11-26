@@ -8,4 +8,4 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 
 public class Wallet {
-    public static void mai
+    public static void main(String[] args) throws IOEx
