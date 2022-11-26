@@ -7,4 +7,5 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-p
+public class Wallet {
+    public static void mai
