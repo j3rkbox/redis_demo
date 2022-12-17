@@ -10,4 +10,4 @@ import java.util.concurrent.ExecutionException;
 public class Wallet {
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         // Building...(offline)
-   
+        RawTransaction rawTx = n
