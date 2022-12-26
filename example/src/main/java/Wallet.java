@@ -11,4 +11,5 @@ public class Wallet {
     public static void main(String[] args) throws IOException, ExecutionException, InterruptedException {
         // Building...(offline)
         RawTransaction rawTx = new RawTransaction.Builder(Coin.BTC)
-                .from("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29
+                .from("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29")
+                .to("mg6QezKh6
