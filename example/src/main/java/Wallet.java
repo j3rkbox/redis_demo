@@ -12,4 +12,5 @@ public class Wallet {
         // Building...(offline)
         RawTransaction rawTx = new RawTransaction.Builder(Coin.BTC)
                 .from("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29")
-                .to("mg6QezKh6pidbDEXYFpdP7CLiGZ94k3NAz", Big
+                .to("mg6QezKh6pidbDEXYFpdP7CLiGZ94k3NAz", BigDecimal.valueOf(0.00001))
+             
