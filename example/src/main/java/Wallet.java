@@ -19,4 +19,4 @@ public class Wallet {
         // BTC
         Chain bitcoin = new BitcoinChain(Network.TEST, BitcoinChain.TESTNET_URL);
         // Packing...(online)
-        PackedRawTransaction packedTx =
+        PackedRawTransaction packedTx = bitcoin.packTransaction(
