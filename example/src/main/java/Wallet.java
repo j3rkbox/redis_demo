@@ -14,4 +14,4 @@ public class Wallet {
                 .from("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29")
                 .to("mg6QezKh6pidbDEXYFpdP7CLiGZ94k3NAz", BigDecimal.valueOf(0.00001))
                 .fee(BigDecimal.valueOf(0.0001)) // optional
-                .change("mjhAYkzNQb
+                .change("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29") // o
