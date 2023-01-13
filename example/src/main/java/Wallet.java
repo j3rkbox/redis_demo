@@ -17,4 +17,4 @@ public class Wallet {
                 .change("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29") // optional
                 .build();
         // BTC
-       
+        Chain bitcoin = new BitcoinChain(Network.T
