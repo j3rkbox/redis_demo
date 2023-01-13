@@ -15,4 +15,6 @@ public class Wallet {
                 .to("mg6QezKh6pidbDEXYFpdP7CLiGZ94k3NAz", BigDecimal.valueOf(0.00001))
                 .fee(BigDecimal.valueOf(0.0001)) // optional
                 .change("mjhAYkzNQbvdWAR2CTtP5HRqdr7RhaWE29") // optional
-                .bui
+                .build();
+        // BTC
+       
