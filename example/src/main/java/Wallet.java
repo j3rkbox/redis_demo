@@ -21,4 +21,4 @@ public class Wallet {
         // Packing...(online)
         PackedRawTransaction packedTx = bitcoin.packTransaction(rawTx);
         // Signing...(offline)
-        List<String> ke
+        List<String> keys = Collections.singletonList("7783f51f3c
