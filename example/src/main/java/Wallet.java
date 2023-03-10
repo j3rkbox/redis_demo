@@ -24,4 +24,5 @@ public class Wallet {
         List<String> keys = Collections.singletonList("7783f51f3cab49b1cab5952de8c13472ae196581fba89addf145f1b71c42f4a4");
         SignedRawTransaction signedTx = bitcoin.signTransaction(packedTx, keys);
         // Sending...(online)
-        String hash = bitcoi
+        String hash = bitcoin.sendTransaction(signedTx);
+        Sys
