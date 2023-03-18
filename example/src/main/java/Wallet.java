@@ -25,4 +25,5 @@ public class Wallet {
         SignedRawTransaction signedTx = bitcoin.signTransaction(packedTx, keys);
         // Sending...(online)
         String hash = bitcoin.sendTransaction(signedTx);
-        Sys
+        System.out.println("Hash: \t" + hash);
+ 
