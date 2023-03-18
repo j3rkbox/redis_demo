@@ -26,4 +26,5 @@ public class Wallet {
         // Sending...(online)
         String hash = bitcoin.sendTransaction(signedTx);
         System.out.println("Hash: \t" + hash);
- 
+    }
+}
