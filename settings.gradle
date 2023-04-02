@@ -1,1 +1,4 @@
-rootProject.name = 'coinj
+rootProject.name = 'coinj'
+include 'core'
+include 'example'
+
